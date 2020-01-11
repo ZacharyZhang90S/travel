@@ -3,6 +3,7 @@ import App from './App.vue';
 import './assets/styles/border.css';
 import './assets/styles/reset.css';
 import fastClick from 'fastclick';
+import './assets/styles/iconfont.css'
 
 fastClick.attach(document.body);
 

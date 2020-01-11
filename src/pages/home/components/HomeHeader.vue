@@ -1,8 +1,15 @@
 <template>
   <div class="header">
-    <div class="header-left">返回</div>
-    <div class="header-input">输入城市/景点/游玩主题</div>
-    <div class="header-right">城市</div>
+    <div class="header-left iconfont">
+      <div class="back-icon">&#xe624;</div>
+    </div>
+    <div class="header-input iconfont">
+      <span class="arrow-icon">&#xe632;</span> 输入城市/景点/游玩主题
+    </div>
+    <div class="header-right iconfont">
+      城市
+      <span>&#xe64a;</span>
+    </div>
   </div>
 </template>
 
@@ -19,15 +26,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style  lang="stylus" scoped>
+@import '../../../assets/styles/varibles.styl'
 .header {
   display: flex;
   line-height: 0.86rem;
-  background: #00bcd4;
+  background: $bgColor;
   color: #fff;
 
   .header-left {
     width: 0.64rem;
     float: left;
+
+    .back-icon {
+      font-size: 0.4rem;
+      text-align: center;
+    }
   }
 
   .header-input {
@@ -45,6 +58,11 @@ export default {
     width: 1.24rem;
     float: right;
     text-align: center;
+
+    .arrow-icon {
+      font-size: 0.24rem;
+      margin-left: 0.04rem;
+    }
   }
 }
 </style>
