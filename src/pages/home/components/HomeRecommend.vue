@@ -2,15 +2,11 @@
   <div class="HomeRecommend">
     <div class="title">热销推荐</div>
     <ul>
-      <li class="item border-bottom">
-        <img
-          src="https://imgs.qunarzz.com/sight/p0/1911/29/29d9b9078000774fa3.img.jpg_224x148_dc788e16.jpg"
-          alt
-          class="item-img"
-        />
+      <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+        <img :src="item.imgUrl" alt class="item-img" />
         <div class="item-info">
-          <p class="item-title">京城溜娃必去</p>
-          <p class="item-desc">这些地方该去看看…</p>
+          <p class="item-title">{{item.title}}</p>
+          <p class="item-desc">{{item.desc}}</p>
           <button class="item-button">查看详情</button>
         </div>
       </li>
@@ -20,7 +16,48 @@
 
 <script>
 export default {
-  name: "HomeRecommend"
+  name: "HomeRecommend",
+  data() {
+    return {
+      recommendList: [
+        {
+          id: "0001",
+          imgUrl:
+            "https://imgs.qunarzz.com/sight/p0/1911/29/29d9b9078000774fa3.img.jpg_224x148_dc788e16.jpg",
+          title: "景点n",
+          desc: "景点特色推荐......"
+        },
+        {
+          id: "0002",
+          imgUrl:
+            "https://imgs.qunarzz.com/sight/p0/1911/29/29d9b9078000774fa3.img.jpg_224x148_dc788e16.jpg",
+          title: "景点n",
+          desc: "景点特色推荐......"
+        },
+        {
+          id: "0003",
+          imgUrl:
+            "https://imgs.qunarzz.com/sight/p0/1911/29/29d9b9078000774fa3.img.jpg_224x148_dc788e16.jpg",
+          title: "景点n",
+          desc: "景点特色推荐......"
+        },
+        {
+          id: "0004",
+          imgUrl:
+            "https://imgs.qunarzz.com/sight/p0/1911/29/29d9b9078000774fa3.img.jpg_224x148_dc788e16.jpg",
+          title: "景点n",
+          desc: "景点特色推荐......"
+        },
+        {
+          id: "0005",
+          imgUrl:
+            "https://imgs.qunarzz.com/sight/p0/1911/29/29d9b9078000774fa3.img.jpg_224x148_dc788e16.jpg",
+          title: "景点n",
+          desc: "景点特色推荐......"
+        }
+      ]
+    };
+  }
 };
 </script>
 
@@ -30,7 +67,7 @@ export default {
 .title {
   background-color: #eee;
   line-height: 0.8rem;
-  padding-left:0.2rem;
+  padding-left: 0.2rem;
   margin-top: 0.2rem;
 }
 
