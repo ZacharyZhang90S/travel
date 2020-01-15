@@ -1,20 +1,24 @@
 <template>
   <div id="app">
-    <Home/>
+    <Home />
   </div>
 </template>
 
 <script>
-import Home from './pages/home/Home'
+import Home from "./pages/home/Home";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Home
   }
-}
+};
 </script>
 
 <style>
-
+* {
+  margin:0;
+	padding:0;
+  box-sizing: border-box;
+}
 </style>
