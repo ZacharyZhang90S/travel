@@ -104,11 +104,13 @@ export default {
 
 <style lang="stylus" scoped>
 @import '../../../assets/styles/varibles.styl';
-
+.icons{
+  
+}
 .icons >>> .swiper-container {
+  margin-top: 0.2rem;
   height: 0;
   padding-bottom: 50%;
-  outline: 1px solid red;
 }
 
 .icon {

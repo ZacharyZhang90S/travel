@@ -21,4 +21,10 @@ export default {
 	padding:0;
   box-sizing: border-box;
 }
+html{
+  font-size: 50px;
+}
+ul,ol{
+  list-style-type: none;
+}
 </style>
