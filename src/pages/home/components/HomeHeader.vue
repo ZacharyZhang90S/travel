@@ -6,10 +6,12 @@
     <div class="header-input iconfont">
       <span class="arrow-icon">&#xe632;</span> 输入城市/景点/游玩主题
     </div>
-    <div class="header-right iconfont">
-      城市
-      <span>&#xe64a;</span>
-    </div>
+    <router-link to="/city">
+      <div class="header-right iconfont">
+        城市
+        <span>&#xe64a;</span>
+      </div>
+    </router-link>
   </div>
 </template>
 
@@ -26,7 +28,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style  lang="stylus" scoped>
-@import '../../../assets/styles/varibles.styl'
+@import '../../../assets/styles/varibles.styl';
+
 .header {
   display: flex;
   line-height: 0.86rem;
@@ -58,6 +61,7 @@ export default {
     width: 1.24rem;
     float: right;
     text-align: center;
+    color: #ffffff;
 
     .arrow-icon {
       font-size: 0.24rem;
