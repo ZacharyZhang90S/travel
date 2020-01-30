@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="area">
-        <div class="title border-topbottom">A</div>
+        <div class="title border-topbottom" ref="A">A</div>
         <div class="item-list">
           <div class="itemi border-bottom">阿拉尔</div>
           <div class="itemi border-bottom">阿拉尔</div>
@@ -57,47 +57,238 @@
       </div>
 
       <div class="area">
-        <div class="title border-topbottom">A</div>
+        <div class="title border-topbottom" ref="B">B</div>
         <div class="item-list">
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
+          <div class="itemi border-bottom">贝塔</div>
+          <div class="itemi border-bottom">贝塔</div>
+          <div class="itemi border-bottom">贝塔</div>
+          <div class="itemi border-bottom">贝塔</div>
+          <div class="itemi border-bottom">贝塔</div>
+          <div class="itemi border-bottom">贝塔</div>
+          <div class="itemi border-bottom">贝塔</div>
+          <div class="itemi border-bottom">贝塔</div>
+          <div class="itemi border-bottom">贝塔</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
         </div>
       </div>
 
       <div class="area">
-        <div class="title border-topbottom">A</div>
+        <div class="title border-topbottom" ref="C">C</div>
         <div class="item-list">
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
         </div>
       </div>
 
       <div class="area">
-        <div class="title border-topbottom">A</div>
+        <div class="title border-topbottom" ref="D">D</div>
         <div class="item-list">
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
-          <div class="itemi border-bottom">阿拉尔</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+        </div>
+      </div>
+      <div class="area">
+        <div class="title border-topbottom" ref="E">E</div>
+        <div class="item-list">
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+        </div>
+      </div>
+      <div class="area">
+        <div class="title border-topbottom" ref="F">F</div>
+        <div class="item-list">
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+        </div>
+      </div>
+      <div class="area">
+        <div class="title border-topbottom" ref="G">G</div>
+        <div class="item-list">
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">城市</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
+          <div class="itemi border-bottom">迪拜</div>
         </div>
       </div>
     </div>
@@ -109,6 +300,18 @@ import BScroll from "@better-scroll/core";
 
 export default {
   name: "CityList",
+  props: {
+    letter: String
+  },
+  watch: {
+    letter() {
+      if ((this.letter)) {
+        const element = this.$refs[this.letter];
+        window.console.log(element)
+        this.scroll.scrollToElement(element);
+      }
+    }
+  },
   mounted() {
     this.scroll = new BScroll(this.$refs.wrapper);
   }

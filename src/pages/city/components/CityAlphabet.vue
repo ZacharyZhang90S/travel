@@ -1,18 +1,23 @@
 <template>
   <ul class="list">
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
+    <li class="item" @click="handleLetterClick">A</li>
+    <li class="item" @click="handleLetterClick">B</li>
+    <li class="item" @click="handleLetterClick">C</li>
+    <li class="item" @click="handleLetterClick">D</li>
+    <li class="item" @click="handleLetterClick">E</li>
+    <li class="item" @click="handleLetterClick">F</li>
+    <li class="item" @click="handleLetterClick">G</li>
   </ul>
 </template>
 
 <script>
 export default {
-  name: "CityAlphabet"
+  name: "CityAlphabet",
+   methods : {
+    handleLetterClick(e) {
+        this.$emit("change",e.target.innerText )
+    }
+  }
 };
 </script>
 
