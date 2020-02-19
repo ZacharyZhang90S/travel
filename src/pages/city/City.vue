@@ -1,28 +1,36 @@
 <template>
-    <div class="city">
-        <city-header></city-header>
-        <city-search></city-search>
-       <city-list></city-list> 
-       <city-alphabet></city-alphabet>
-    </div>
+  <div class="city">
+    <city-header></city-header>
+    <city-search></city-search>
+    <city-list :letter="letter"></city-list>
+    <city-alphabet @change="handleLetterChange"></city-alphabet>
+  </div>
 </template>
 
 <script>
-import CityHeader from  './components/CityHeader'
-import CitySearch from  './components/CitySearch'
-import CityList from './components/CityList'
-import CityAlphabet from './components/CityAlphabet'
+import CityHeader from "./components/CityHeader";
+import CitySearch from "./components/CitySearch";
+import CityList from "./components/CityList";
+import CityAlphabet from "./components/CityAlphabet";
 export default {
-    name: "city",
-    components:{
-        CityHeader,
-        CitySearch,
-        CityList,
-        CityAlphabet
+  name: "city",
+  components: {
+    CityHeader,
+    CitySearch,
+    CityList,
+    CityAlphabet
+  },
+  data() {
+    return {
+      letter: ""
+    };
+  },
+  methods: {
+    handleLetterChange(letter) {
+      this.letter = letter;
     }
-}
+  }
+};
 </script>
 
-<style lang="stylus" scoped>
-    
-</style>
+<style lang="stylus" scoped></style>

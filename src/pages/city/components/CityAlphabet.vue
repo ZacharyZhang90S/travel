@@ -1,18 +1,52 @@
 <template>
   <ul class="list">
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
+    <li class="item" @click="handleLetterClick">A</li>
+    <li class="item" @click="handleLetterClick">B</li>
+    <li class="item" @click="handleLetterClick">C</li>
+    <li class="item" @click="handleLetterClick">D</li>
+    <li class="item" @click="handleLetterClick">E</li>
+    <li class="item" @click="handleLetterClick">F</li>
+    <li class="item" @click="handleLetterClick">G</li>
   </ul>
 </template>
 
 <script>
 export default {
-  name: "CityAlphabet"
+  name: "CityAlphabet",
+  data() {
+    return {
+      touchStatus: false
+    };
+  },
+  methods: {
+    handleLetterClick(e) {
+      let letter = e.target.innerText;
+      this.$emit("change", letter);
+    }
+    //滑动事件无法生效bug
+    // handleTouchStart() {
+    //   this.touchStatus = true;
+    //   window.console.log(1);
+    // },
+    // handleTouchMove(e) {
+    //   window.console.log(1);
+    //   if (this.touchStatus) {
+    //     const startY = this.$refs["A"].offsetTop;
+    //     const touchY = e.touch[0].clientY - 79;
+    //     const index = Math.floor((touchY - startY) / 20);
+    //     window.console.log(startY);
+    //     window.console.log(touchY);
+    //     window.console.log(index);
+    //     if (index >= 0 && index < this.letters.length) {
+    //       this.$emit("change", this.letters[index]);
+    //     }
+    //   }
+    // },
+    // handleTouchEnd() {
+    //   window.console.log(1);
+    //   this.touchStatus = false;
+    // }
+  }
 };
 </script>
 
